@@ -1,1 +1,1 @@
-/api/*http://last-project.us-east-2.elasticbeanstalk.com/api/:splat 200
+/api/* http://last-project.us-east-2.elasticbeanstalk.com/api/:splat 200
