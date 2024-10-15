@@ -1,0 +1,16 @@
+.detail-button {
+    background-color: #222222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.detail-button:hover {
+    background-color: #303030;
+    cursor: pointer;
+}
+
