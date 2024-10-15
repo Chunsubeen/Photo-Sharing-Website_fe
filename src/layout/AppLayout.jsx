@@ -36,7 +36,7 @@ const AppLayout = ({ user, handleLogout }) => {
         <Container fluid className="navbar-container">
           {/* Logo */}
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} alt="Logo" width="300" />
+            <img src={logo} alt="Logo" className="navbar-logo" />
           </Navbar.Brand>
           {/* Bookmark, Upload, Dropdown */}
           <div className="navbar-right">

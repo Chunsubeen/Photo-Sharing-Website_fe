@@ -10,6 +10,9 @@
     align-items: center;
     gap: 15px;
 }
+.navbar-logo {
+    width: 300px;
+}
 
 .navbar-icon {
     background-color: transparent !important;
@@ -69,6 +72,9 @@
 }
 
 @media (max-width: 768px) {
+    .navbar-logo {
+            width: 150px;
+        }
     .sidebar {
         z-index:1;
         width: 100vw;
