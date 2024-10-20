@@ -7,7 +7,7 @@ import {
 } from "@react-google-maps/api";
 import { FiBookmark } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-import api from "../../utils/api"; // Axios 인스턴스
+import api from "../../utils/api";
 import "./HomePage.style.css";
 
 const HomePage = ({ myPhotos, user, updatePhotoInState }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import MyPhoto from "./component/MyPhoto/MyPhoto";
-import { Container, Row, Col } from "react-bootstrap"; // Bootstrap의 Container, Row, Col을 사용
+import { Container, Row, Col } from "react-bootstrap";
 import Banner from "../component/Banner";
 import { IoMdPhotos } from "react-icons/io";
 
