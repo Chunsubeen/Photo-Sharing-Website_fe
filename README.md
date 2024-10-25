@@ -1,8 +1,7 @@
 # Photo-Sharing Website # photo-sharing platform
 ![image](https://github.com/user-attachments/assets/7e68dcb4-b2a3-4233-b7f8-74a4a59fd343)
 ![image](https://github.com/user-attachments/assets/a89a07ad-6f51-41a0-8636-bd7ee7fa236b)
-
-![image](https://github.com/user-attachments/assets/9a8d4797-4939-404b-a4fb-ba3646b82f6f)
+![image](https://github.com/user-attachments/assets/197ec12b-f03a-4615-9090-8074c1948d43)
 ![image](https://github.com/user-attachments/assets/4d6f06a5-861c-4301-8b2a-cea99ea45c14)
 
 ## Users  
