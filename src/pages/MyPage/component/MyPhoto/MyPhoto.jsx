@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal, Button, Card } from "react-bootstrap";
 import "./MyPhoto.style.css";
 import api from "../../../../utils/api";
 
@@ -52,12 +52,18 @@ const MyPhoto = ({ photo }) => {
 
   return (
     <>
-      <img
-        className="photo-card"
-        src={photo.image}
-        style={{ width: "100%", cursor: "pointer", marginBottom: "10px" }}
+      <Card
+        className="photo-card mb-4"
         onClick={handleShow}
-      />
+        style={{ cursor: "pointer" }}
+      >
+        <Card.Img variant="top" src={photo.image} />
+        <Card.Body>
+          <Card.Text>
+            <strong>Country:</strong> {photo.country}
+          </Card.Text>
+        </Card.Body>
+      </Card>
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Body>
