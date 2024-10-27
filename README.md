@@ -22,8 +22,7 @@
 ## Technologies Used  
 
 ### Frontend  
-- React  
-- React Router  
+- React
 
 ### Backend  
 - Node.js  
